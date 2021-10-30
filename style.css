@@ -1,0 +1,327 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main #header{
+    width: 100%;
+    height: 58px;
+    background: #222222;
+    text-align:center;
+}
+#main #header a{
+    color: #A3A3A3;
+    line-height: 60px;
+    font-size: 24px;
+}
+#main #nav{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    padding-top: 50%;
+    background: url("./img/background.jpg") top center / cover no-repeat;
+}
+#nav ul li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+#main #nav #nav-logo{
+    position: absolute;
+    top: 48px;
+    color: white;
+    font-size: 200%;
+    text-align: center;
+    left: 32px;
+    margin-left: 100px;
+}
+#main #nav #nav-center{
+    position: absolute;
+    top: 48px;
+    text-align: center;
+    left: 30%;
+    right: 30%;
+}
+#nav-center ul li{
+    display: inline-block;
+    padding: 0 16px;
+}
+#main #nav #nav-user{
+    position: absolute;
+    top: 48px;
+    color: white;
+    right: 10%;
+}
+#nav-user ul li{
+    display: inline-block;
+    padding: 0 16px;
+}
+#nav .nav-menu{
+    background: white;
+    top: 215px;
+    position: absolute;
+    border-radius: 58px / 80px;
+}
+#nav .nav-menu .menu{
+    background: white;
+    border-radius: 58px / 80px;
+    height:64px ;
+    width: 255px;
+    float: left;
+    margin: 0 1px;
+    border: rgba(0, 0, 0, 0.07) solid 1px;
+    line-height: 30px;
+}
+#nav .nav-menu .menu .name-menu{
+    margin-left: 40px;
+}
+#nav .nav-menu #search{
+    background: red;
+    border-radius: 50%;
+    height:56px;
+    width: 56px;
+    color: white;
+    font-size: 255%;
+    line-height: 58px;
+    margin-top: 4px;
+    border-inline-width: 6px;
+
+}
+#nav .nav-footer{
+    width: 716px;
+    height: 177px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 58px / 80px;
+    position: absolute;
+    top: 560px;
+    text-align: center;
+}
+#nav .nav-footer .search-s {
+    width: 268px;
+    height: 64px;
+    border-radius: 58px / 80px;
+    background: white;
+    margin-top: 24px;
+    margin-left: 208px;
+}
+#nav .nav-footer h1{
+    margin-top: 28px;
+}
+#nav .nav-footer h3 a{
+    line-height: 64px;
+    color: #910190;
+    text-decoration: none;
+}
+#main #content{
+    width: 100%;
+    min-height: 700px;
+}
+#main #content .content-sub{
+    margin-top: 48px;
+    width: 100%;
+}
+#main #content .content-sub h1{
+    margin-left: 20px;
+}
+#content #city-recently #city .name-img-city{
+    float: left;
+    margin: 20px 80px;
+}
+#content #city-recently #city .img-city{
+    width: 80px;
+    height: 80px;
+    border-radius: 34px / 80px;
+    float: left;
+}
+/*Gán hình ảnh >>>>>>>>*/
+#content #city-recently #city .name-img-city #hoChiMinh{
+    background: url("./img/tpHoChiMinh.jpg") top center / cover no-repeat;
+}
+#content #city-recently #city .name-img-city #nhaTrang{
+    background: url("./img/nhaTrang.jpg") top center / cover no-repeat;
+}
+#content #city-recently #city .name-img-city #phanRangThapCham{
+    background: url("./img/phanRangThapCham.jpg") top center / cover no-repeat;
+}
+#content #city-recently #city .name-img-city #bienHoa{
+    background: url("./img/bienHoa.jpg") top center / cover no-repeat;
+}
+#content #city-recently #city .name-img-city #canTho{
+    background: url("./img/canTho.jpg") top center / cover no-repeat;
+}
+#content #city-recently #city .name-img-city #vungTau{
+    background: url("./img/vungTau.jpg") top center / cover no-repeat;
+}
+#content #city-recently #city .name-img-city #tuyHoa{
+    background: url("./img/tuyHoa.jpg") top center / cover no-repeat;
+}
+#content #city-recently #city .name-img-city #daLat{
+    background: url("./img/daLat.jpg") top center / cover no-repeat;
+}
+/*Gán hình ảnh <<<<<<<*/
+#content #city-recently #city .name-city{
+    height: 80px;
+    width: 300px;
+}
+#content #city-recently #city .name-city a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 80px;
+    margin-left: 16px;
+}
+#content #city-recently #city #name-daLat{
+   right: auto;
+}
+#main #content #anywhere{
+    display: inline-block;
+}
+#content #anywhere #anywhere-sub{}
+#content #anywhere #anywhere-sub .anywhere-sub-cont{
+    float: left;
+    margin:20px 50px ;
+}
+#content #anywhere #anywhere-sub .anywhere-sub-cont a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 40px;
+    margin-left: 92px;
+}
+#content #anywhere #anywhere-sub .anywhere-sub-cont .img-anywhere{
+    width: 400px;
+    height: 400px;
+    border-radius: 100px / 150px;
+}
+#content #anywhere #anywhere-sub .anywhere-sub-cont #anywhere001{
+    background: url("./img/anywhere1.jpg") top center / cover no-repeat;
+}
+#content #anywhere #anywhere-sub .anywhere-sub-cont #anywhere002{
+    background: url("./img/anywhere2.jpg") top center / cover no-repeat;
+}
+#content #anywhere #anywhere-sub .anywhere-sub-cont #anywhere003{
+    background: url("./img/anywhere3.jpg") top center / cover no-repeat;
+}
+#content #anywhere #anywhere-sub .anywhere-sub-cont #anywhere004{
+    background: url("./img/anywhere4.jpg") top center / cover no-repeat;
+}
+#main #content #discover{}
+#content #discover #discover-sub .discover-sub-cont{
+    float: left;
+    margin:20px 50px ;
+}
+#content #discover #discover-sub .discover-sub-cont a{
+    color: #000000;
+    text-decoration: none;
+    line-height: 40px;
+    margin-left: 72px;
+    text-align: center;
+}
+#content #discover #discover-sub .discover-sub-cont .img-discover{
+    width: 530px;
+    height: 530px;
+    border-radius: 100px / 150px;
+}
+#content #discover #discover-sub .discover-sub-cont #discover001{
+    background: url("./img/discover1.jpg") top center / cover no-repeat;
+}
+#content #discover #discover-sub .discover-sub-cont #discover002{
+    background: url("./img/discover2.jpg") top center / cover no-repeat;
+}
+#content #discover #discover-sub .discover-sub-cont #discover003{
+    background: url("./img/discover3.jpg") top center / cover no-repeat;
+}
+#main #review{
+    display: inline-block;
+    width: 100%;
+    min-height: 584px;
+    background: rgba(12, 11, 11, 0.07);
+}
+#main #review .review-sub{
+    min-height: 584px;
+    width: 33.33333%;
+    float: left;
+    margin-top: 40px;
+}
+#main #review .review-sub h1,
+#main #review .review-sub h2{
+    margin-bottom: 20px;
+}
+#main #review .review-sub ul li{
+    list-style: none;
+}
+#main #review .review-sub ul li a{
+    text-decoration: none;
+    color: black;
+}
+#main #review #left-review{
+
+}
+#main #review #left-review #div-review-left{
+    margin-left: 126px;
+    margin-top: 100px;
+}
+#main #review #left-review #div-review-left ul li{
+    margin-top: 20px;
+}
+#main #review #center-review{}
+#main #review #center-review ul li{
+    text-align: center;
+    line-height: 60px;
+}
+#main #review #right-review .right-review-sub{
+    margin: 40px 0;
+}
+#main #review #right-review #mobile-sub #googlePlay{
+    width: 158.5px;
+    height: 50px;
+    background: url("./img/googlePlay.png") top center / cover no-repeat;
+}
+#main #review #right-review #mobile-sub #appStore{
+    width: 158.5px;
+    height: 50px;
+    background: url("./img/appStore.png") top center / cover no-repeat;
+}
+#main #review #right-review #mobile-sub .img-mobile{
+    float: left;
+    margin-top: 24px;
+}
+#main #review #right-review #notification{
+    display: inline-block;
+}
+#main #review #right-review #notification .email-register{
+    border-radius: 65px / 124px;
+    margin-top: 24px;
+}
+#main #review #right-review #notification #email{
+    width: 316px;
+    height: 40px;
+}
+#main #review #right-review #notification #button{
+    background: red;
+    color: white;
+    border: red solid 1px;
+    height: 39px;
+    width: 88px;
+    font-weight: 700;
+}
+#main #review #right-review #follow ul li{
+    float: left;
+    margin: 10px 20px;
+    font-size: 46px;
+}
+#main #footer{
+    width: 100%;
+    height: 185px;
+    background: #222222;
+}
+#main #footer ul li{
+    color: #A3A3A3;
+    text-align: center;
+    word-spacing:5px;
+    line-height: 62px;
+}
